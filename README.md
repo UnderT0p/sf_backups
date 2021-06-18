@@ -12,6 +12,6 @@
 
       https://webdav.yandex.ru логин_Яндекса пароль_приложения
       
-- sudo bash backup_yandex.sh /var/www/html  - запустить скрипт backup_yandex.sh с нужной директорией в качестве параметра(/var/www/html - пример). 
+- sudo bash backup_yandex.sh /var/www/html  - запустить скрипт backup_yandex.sh с нужной директорией в качестве параметра(/var/www/html - пример), указанная папка заархивируется утилитой tar. 
 
 В итоге мы получим архив на яндекс диске такого формата - backup_2021-06-18-15-22.tgz.
